@@ -5,8 +5,7 @@ const port = process.env.PORT || 3000;
 
 // Define a simple route
 app.get('/', (req, res) => {
-    res.send('Hello, Jenkins! Node.js application is running.');
-    res.send('Sophia the First!');
+    res.send('Hello, Jenkins! Node.js application is running. Sophia the First!');
 });
 
 // Start the server
